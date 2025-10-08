@@ -1,0 +1,64 @@
+.first-color, .second-color:hover {
+    background-color: #088f8f;
+    color: #2AFF61;
+}
+
+.first-color:hover, .second-color {
+    background-color: #f5f508;
+    
+    color: #FF6A57
+
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+
+.container.position {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 200px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    border: 5px solid black;
+    position: absolute;
+}
+
+.one {
+    background-color: rgba(241, 181, 132, 0.5);
+    top: 0;
+    left: 0;
+}
+
+.two {
+    background-color: rgba(201, 154, 153, 0.5);
+    top: 50px;
+    left: 50px;
+}
+
+.container.transform {
+    position: relative;
+}
+
+.container.transform .square {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.container.transform .one {
+    background-color: rgba(241, 181, 132, 0.5);
+    transform: translate(0, 0);
+}
+
+.container.transform .two {
+    background-color: rgba(201, 154, 153, 0.5);
+    transform: translate(1px, 1px);
+}
